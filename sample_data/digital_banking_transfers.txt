@@ -1,0 +1,8 @@
+FICTIONAL DEMONSTRATION SOURCE — Digital Banking Transfers
+
+The transfer workflow shall validate the source account, destination details, available balance, and applicable transfer limits before submission.
+The service shall show the customer a transaction summary before the customer confirms a transfer.
+The service shall assign a unique reference to each submitted transfer and display its status.
+Duplicate submissions shall be detected and shall not result in duplicate debits.
+Transfers requiring additional review shall be routed to an authorised operations user.
+Failed or reversed transfers shall retain an auditable status and reason.

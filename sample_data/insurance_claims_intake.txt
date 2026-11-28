@@ -1,0 +1,8 @@
+FICTIONAL DEMONSTRATION SOURCE — Insurance Claims Intake
+
+The claims service shall allow an authenticated policyholder or authorised representative to submit a claim with a policy reference, incident details, and supporting documents.
+The service shall validate that required fields and documents are present before accepting a claim for assessment.
+Each claim shall receive a unique reference and a status visible to authorised users.
+The service shall route incomplete submissions to a request-for-information workflow.
+Claim documents and personal information shall be accessible only to authorised claims roles.
+The insurer shall define policy coverage rules, statutory timelines, retention periods, and service levels before production use.

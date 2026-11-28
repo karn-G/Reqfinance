@@ -1,0 +1,7 @@
+FICTIONAL DEMONSTRATION SOURCE — Insurance Claims Assessment
+
+The claims workflow shall record assessment findings, policy references, evidence reviewed, and the identity of the assigned assessor.
+Decisions to approve, partially approve, reject, or escalate a claim shall include a recorded rationale.
+Claims exceeding configured authority limits shall be routed to an authorised supervisor.
+The system shall notify the claimant when the claim status changes or additional information is required.
+The system shall maintain an auditable history of claim status and decision changes.

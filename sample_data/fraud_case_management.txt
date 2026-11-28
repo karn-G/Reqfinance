@@ -1,0 +1,7 @@
+FICTIONAL DEMONSTRATION SOURCE — Fraud Case Management
+
+The system shall allow an investigator to create or update a case linked to one or more transaction or customer-event references.
+Access to case details shall be restricted according to assigned role and case permissions.
+The system shall preserve a chronological audit trail of case access, assignment, notes, evidence references, and disposition changes.
+Cases requiring escalation shall be assigned to a designated senior reviewer.
+The system shall support reporting on alert volumes, case ageing, dispositions, and investigator workload.

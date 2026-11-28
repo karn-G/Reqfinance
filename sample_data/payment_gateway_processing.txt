@@ -1,0 +1,9 @@
+FICTIONAL DEMONSTRATION SOURCE — Payment Gateway Processing
+
+The payment gateway shall accept payment requests from registered merchants using authenticated API credentials.
+The gateway shall validate request format, merchant status, currency, amount, and idempotency key before processing.
+The gateway shall return a transaction identifier and a clear accepted, declined, pending, or failed status.
+Cardholder authentication and payment data handling shall use institution-approved and applicable payment-security controls.
+The gateway shall prevent duplicate processing when a merchant retries the same request with the same idempotency key.
+Sensitive payment data shall not be written to application logs.
+The operator shall define throughput, latency, availability, retry, and reconciliation targets before production use.

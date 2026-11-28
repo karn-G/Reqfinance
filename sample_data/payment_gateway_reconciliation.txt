@@ -1,0 +1,7 @@
+FICTIONAL DEMONSTRATION SOURCE — Payment Reconciliation and Disputes
+
+The system shall maintain an auditable record of payment authorisation, capture, refund, reversal, and settlement events.
+The reconciliation process shall compare gateway transaction records with merchant and settlement records.
+Unmatched or inconsistent records shall be placed in an exception queue for authorised review.
+The system shall record dispute status, evidence references, assigned owner, and resolution timestamps.
+Only authorised roles shall issue refunds or change dispute outcomes.

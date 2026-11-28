@@ -1,0 +1,8 @@
+FICTIONAL DEMONSTRATION SOURCE — Digital Banking Account Services
+
+The digital banking service shall allow an authenticated customer to view balances and transaction history for accounts they are authorised to access.
+The service shall require multi-factor authentication for sensitive account actions, subject to institution-approved risk rules.
+The service shall record account profile changes, authentication events, and sensitive actions in an audit log with timestamps.
+The service shall notify customers when account contact details are changed.
+The service shall prevent one customer from viewing another customer's account information.
+The institution shall define and approve session timeouts, transaction limits, retention periods, and availability targets before production use.

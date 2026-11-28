@@ -1,0 +1,9 @@
+FICTIONAL DEMONSTRATION SOURCE — Fraud Detection Monitoring
+
+The fraud monitoring service shall evaluate eligible transactions against configurable risk indicators and institution-approved rules.
+Each alert shall include a reason code, event reference, creation time, and risk score or severity where available.
+The service shall route alerts to authorised investigators based on configured queues and priority.
+Investigators shall be able to record a disposition, supporting rationale, and evidence references.
+Rule changes shall be versioned and attributable to an authorised user.
+The system shall not automatically make irreversible adverse customer decisions solely from an unreviewed alert.
+Thresholds, model validation, false-positive targets, and escalation service levels require approval by the institution.
